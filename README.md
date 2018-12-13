@@ -36,11 +36,11 @@ This `README` provide introduction to the library usage.
 #### Basic usage
 ```go
     // Setup your credentials for authorized requests
-    AccID := 42 // Your account ID form Tarlan Payments
+    AccGUID := "someAccountGUID" // Your account GUID from Tarlan Payments
     SecKey := "someSecretKey" // Your API secret key
 
     // Setup new Gateway Client
-    gateCli, gateCliErr := tarlanpaymentsgateway.NewGatewayClient(AccID, SecKey)
+    gateCli, gateCliErr := tarlanpaymentsgateway.NewGatewayClient(AccGUID, SecKey)
     if gateCliErr != nil {
         log.Fatal(gateCliErr)
     }

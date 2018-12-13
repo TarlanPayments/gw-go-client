@@ -1,3 +1,7 @@
+##### Version 1.3.0 (2018-12-13)
+
+	Fix authorization: account GUID is a string
+
 ##### Version 1.2.0 (2018-08-21)
 
 	Added missingh methods B2P and card 3-D Secure enrollment verification
