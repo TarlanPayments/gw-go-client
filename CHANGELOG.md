@@ -1,3 +1,7 @@
+##### Version 1.3.1 (2019-01-23)
+
+	Fix methods DMS Hold Charge and Cancel: methods require merchant transaction ID.
+
 ##### Version 1.3.0 (2018-12-13)
 
 	Fix authorization: account GUID is a string
